@@ -10,13 +10,13 @@ export default function Layout({ children }) {
                 <title>Anindya Dey | Full Stack Developer</title>
             </Head>
             <div className='w-11/12 xl:w-9/12 mx-auto py-20 grid grid-cols-12 grid-rows-3 gap-3'>
-                <div className='bg-white col-span-3 p-8 rounded-lg'>
+                <div className='bg-white col-span-3 p-8 rounded-lg shadow-lg'>
                 <ProfileIntro profileIntro={ProfileData.intro} />
                 </div>
-                <div className='bg-white col-span-9 row-span-3 p-8 rounded-lg'>
+                <div className='bg-white col-span-9 row-span-3 p-8 rounded-lg shadow-lg'>
                 {children}
                 </div>
-                <div className='bg-white col-span-3 row-span-2 rounded-lg'>
+                <div className='bg-white col-span-3 row-span-2 rounded-lg divide-y divide-fuchsia-300 shadow-lg'>
                 {
                     ProfileData.resumeItems.map(resumeItem => 
                     <Resume key={resumeItem.name} resumeItem={resumeItem} />
