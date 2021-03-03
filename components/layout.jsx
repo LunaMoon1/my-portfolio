@@ -9,9 +9,13 @@ export default function Layout({ children }) {
             <Head>
                 <title>Anindya Dey | Full Stack Developer</title>
             </Head>
-            <div className='w-11/12 xl:w-9/12 mx-auto py-20 grid grid-cols-12 grid-rows-3 gap-3'>
-                <div className='bg-white col-span-3 p-8 rounded-lg shadow-lg'>
-                <ProfileIntro profileIntro={ProfileData.intro} />
+            <div className='sm:w-11/12 xl:w-9/12 mx-auto sm:py-20 sm:grid grid-cols-12 grid-rows-3 gap-3'>
+                <div className='
+                    bg-white col-span-3 
+                    sm:p-8 p-2 sm:p-0 flex sm:block sm:rounded-lg 
+                    shadow-lg transition duration-500 ease-in-out sm:transform
+                    hover:scale-110'>
+                    <ProfileIntro profileIntro={ProfileData.intro} />
                 </div>
                 <div className='bg-white col-span-9 row-span-3 p-8 rounded-lg shadow-lg'>
                 {children}
@@ -23,7 +27,7 @@ export default function Layout({ children }) {
                     )
                 }
                 </div>
-            </div>   
+            </div>
         </div>
     )
 }
