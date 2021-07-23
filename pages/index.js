@@ -1,13 +1,13 @@
 import "tailwindcss/tailwind.css";
-
-import Layout from '../components/layout';
-import MainContent from '../components/main-content';
-import Resume from './resume/[section]';
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <Layout>
-      <Resume />
-    </Layout>
-  )
+    <h1 className="font-300">
+      Read{" "}
+      <Link href="/posts/first-post">
+        <a>this page!</a>
+      </Link>
+    </h1>
+  );
 }
