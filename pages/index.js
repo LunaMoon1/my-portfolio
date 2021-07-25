@@ -1,11 +1,16 @@
 import 'tailwindcss/tailwind.css';
+import Head from 'next/head'
 import Image from 'next/image';
 import SocialLink from '../components/social-link';
 import { SocialLinks } from '../data/social-links';
 
 export default function Home() {
   return (
-    <div className>
+    <div>
+      <Head>
+        <title>Anindya Dey | Full-stack Developer</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className='container mx-auto mt-4'>
         <div className='flex px-6 py-3 flex justify-between items-center'>
           <div>
