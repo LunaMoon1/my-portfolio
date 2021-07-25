@@ -39,12 +39,10 @@ export default function Home() {
               className="rounded-full"
             />
           </div>
-          <div className="mt-6 text-5xl font-light">Full-stack Developer</div>
-          <div className="mt-2 text-lg text-gray-500">
-            In love with the world of 0s and 1s
-          </div>
+          <div className="mt-8 text-5xl font-light">Anindya Dey</div>
+          <div className="mt-3 text-2xl font-light">Full-stack Developer</div>
         </div>
-        <div className="mt-8 px-3 py-2 flex justify-center space-x-4">
+        <div className="mt-8 px-3 py-2 flex justify-center space-x-8">
           {SocialLinks.map((link, i) => (
             <SocialLink key={i} url={link.url} icon={link.icon} />
           ))}
