@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "update-tw": "npm install -D tailwindcss@latest postcss@latest autoprefixer@latest"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^10.2.3",
