@@ -1,7 +1,7 @@
 function Header() {
     return (
         <>
-            <div className="fixed top-0 z-10 w-full mb-20 px-6 py-3 shadow-lg flex justify-between items-center bg-gray-400">
+            <div className="fixed top-0 z-10 w-full mb-20 px-6 py-3 shadow-lg flex justify-between items-center bg-gray-300">
                 <div>
                     <a href="#" className="text-4xl font-bold">
                         AD
