@@ -3,7 +3,7 @@ import Image from "next/image";
 function MainContent() {
     return (
         <>
-            <div className="py-20 flex flex-col items-center bg-gray-100">
+            <div className="py-20 flex flex-col items-center">
                 <div className="">
                     <Image
                         alt="Profile picture of Anindya Dey"
@@ -13,8 +13,8 @@ function MainContent() {
                         className="rounded-full object-cover"
                     />
                 </div>
-                <div className="mt-8 text-5xl font-light">Anindya Dey</div>
-                <div className="mt-3 text-2xl font-light">Full-stack Developer</div>
+                <div className="mt-8 text-3xl font-light">Anindya Dey</div>
+                <div className="mt-3 text-lg font-light">Full-stack Developer</div>
             </div>
         </>
     )
