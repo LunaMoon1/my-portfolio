@@ -10,11 +10,11 @@ function MainContent() {
                         src="/images/profile.jpg"
                         height={150}
                         width={150}
-                        className="rounded-full object-cover"
+                        className="rounded-full"
                     />
                 </div>
-                <div className="mt-8 text-3xl font-light">Anindya Dey</div>
-                <div className="mt-3 text-lg font-light">Full-stack Developer</div>
+                <div className="mt-8 text-3xl lg:text-6xl font-light">Anindya Dey</div>
+                <div className="mt-3 text-xl lg:text-3xl font-light">Full-stack Developer</div>
             </div>
         </>
     )
