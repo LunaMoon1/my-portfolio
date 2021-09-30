@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="container mx-auto mt-4">
-        <div className="flex px-6 py-3 flex justify-between items-center">
+        <div className="px-6 py-3 flex justify-between items-center">
           <div>
             <a href="#" className="text-4xl font-bold">
               AD
