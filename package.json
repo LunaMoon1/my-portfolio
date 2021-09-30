@@ -6,16 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "update-tw": "npm install -D tailwindcss@latest postcss@latest autoprefixer@latest"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "next": "^11.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4"
+    "autoprefixer": "^10.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
   }
 }
