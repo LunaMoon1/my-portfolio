@@ -33,6 +33,7 @@ export default function Home() {
         <div className="mt-8 px-3 py-2 flex flex-col items-center">
           <div>
             <Image
+              alt="Profile picture of Anindya Dey"
               src="/images/profile.jpg"
               height={200}
               width={200}
