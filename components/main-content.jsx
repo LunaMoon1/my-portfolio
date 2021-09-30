@@ -3,14 +3,14 @@ import Image from "next/image";
 function MainContent() {
     return (
         <>
-            <div className="px-3 py-2 flex flex-col items-center">
-                <div>
+            <div className="py-20 flex flex-col items-center bg-gray-100">
+                <div className="">
                     <Image
                         alt="Profile picture of Anindya Dey"
                         src="/images/profile.jpg"
-                        height={200}
-                        width={200}
-                        className="rounded-full"
+                        height={150}
+                        width={150}
+                        className="rounded-full object-cover"
                     />
                 </div>
                 <div className="mt-8 text-5xl font-light">Anindya Dey</div>

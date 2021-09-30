@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <PageTitle title="Anindya Dey | Full-stack Developer" />
-      <div className="relative mx-auto mt-4 flex flex-col">
+      <div className="mt-20 flex flex-col">
         <Header />
         <MainContent />
         <Footer />
