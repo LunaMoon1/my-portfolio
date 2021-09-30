@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import SocialLink from "../components/social-link";
 import { SocialLinks } from "../data/social-links";
 
