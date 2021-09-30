@@ -4,11 +4,16 @@ import { SocialLinks } from "../data/social-links";
 function Footer() {
     return (
         <>
-            <div className="fixed bottom-0 w-full px-2 py-8 flex justify-evenly bg-gray-200">
-                {SocialLinks.map((link, i) => (
-                    <SocialLink key={i} url={link.url} icon={link.icon} />
-                ))}
-            </div>
+            <footer className="fixed bottom-0 inset-x-0 px-6 py-8 flex flex-col space-y-6 bg-gray-200">
+                <div className="flex justify-evenly">
+                    {SocialLinks.map((link, i) => (
+                        <SocialLink key={i} url={link.url} icon={link.icon} />
+                    ))}
+                </div>
+                <div className="text-center">
+                    Powered by me &copy; 2021
+                </div>
+            </footer>
         </>
     )
 }
