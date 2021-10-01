@@ -3,7 +3,8 @@ import {
     faGithub, 
     faInstagram, 
     faTwitter, 
-    faFacebook
+    faFacebook,
+    faCodepen
 } from '@fortawesome/free-brands-svg-icons';
 
 export const SocialLinks = [
@@ -16,6 +17,11 @@ export const SocialLinks = [
         name: 'github',
         url: 'https://github.com/andys-github',
         icon: faGithub
+    },
+    {
+        name: 'codepen',
+        url: 'https://codepen.io/andys-codepen',
+        icon: faCodepen
     },
     {
         name: 'facebook',
