@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SocialLink from "../components/social-link";
+import SocialLink from "./social-link";
 import { SocialLinks } from "../data/social-links";
 
 function Footer() {
