@@ -1,7 +1,16 @@
+import { About, Header, Footer, Work, Skills, Testimonial } from "./container";
+import { Navbar } from "./components";
+
 export default function App() {
   return (
-    <h1 className="text-5xl font-light">
-      Hello world!
-    </h1>
+    <div>
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
+    </div>
   )
 }
