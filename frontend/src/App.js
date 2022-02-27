@@ -1,5 +1,4 @@
-import { About, Header, Footer, Work, Skills, Testimonial } from "./container";
-import { Navbar } from "./components";
+import { Navbar, Header, About, Work, Skills, Testimonial, Footer } from "./components";
 
 export default function App() {
   return (
