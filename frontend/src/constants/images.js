@@ -35,6 +35,8 @@ import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
+import bgWhite from "../assets/bgWhite.png";
+
 const images = {
   email,
   mobile,
@@ -69,6 +71,7 @@ const images = {
   nb,
   skype,
   spotify,
+  bgWhite,
 };
 
 export default images;

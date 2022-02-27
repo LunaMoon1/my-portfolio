@@ -3,7 +3,7 @@ import { Navbar } from "./components";
 
 export default function App() {
   return (
-    <div>
+    <div className="bg-gray-100">
       <Navbar />
       <Header />
       <About />
